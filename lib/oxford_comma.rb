@@ -10,7 +10,7 @@ def oxford_comma(array)
     puts string
     string
   else
-    array[-1].("and ")
+    array[-1].insert(0, "and ")
     string = array.join(", ")
     puts string
     string
