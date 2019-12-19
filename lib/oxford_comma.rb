@@ -2,7 +2,7 @@ def oxford_comma(array)
   case array.length
 
   when  1
-    string = array.to_s
+    string = array.first
     puts string
     string
   when 2
