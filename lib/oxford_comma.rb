@@ -13,6 +13,6 @@ def oxford_comma(array)
     array[-1] = array[-1].unshift("and ")
     string = array.join(", ")
     puts string
-    array
+    string
   end
 end
